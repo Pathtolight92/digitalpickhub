@@ -1,25 +1,16 @@
-DigitalPickHub website package
+DigitalPickHub website update
 
-Files:
-- index.html: homepage
-- guides.html: editorial guide directory
-- ai-tools-2026.html: AI tools discovery guide
-- free-ai-video-generators.html: AI video tools guide
-- ai-tools-for-designers.html: design tools guide
-- websites-to-learn-digital-skills.html: online learning guide
-- ai-writing-tools-comparison.html: AI writing tools guide
-- styles.css and script.js: site styling and interactions
-- disclosure.html: affiliate disclosure draft
-- privacy.html: privacy policy placeholder (must be completed before public affiliate launch)
+Upload all files in this folder to the ROOT of your existing GitHub repository and commit the changes. Replace files with the same names.
 
-Editorial identity: DigitalPickHub Editorial Team.
+New pages: about.html, contact.html, terms.html. Updated pages: privacy.html, disclosure.html, index.html.
 
-IMPORTANT BEFORE LAUNCH:
-1. Replace hello@digitalpickhub.com with an email address you control, or configure that address.
-2. Complete privacy.html with accurate operator/contact details, analytics/cookies information and applicable legal disclosures.
-3. Review disclosure.html and ensure clear disclosures appear near any affiliate links.
-4. Add only verified affiliate links after the relevant programmes approve your account. These pages currently contain ordinary product links, not affiliate tracking links.
-5. Do not claim hands-on testing, ratings or prices unless you have genuinely tested and verified them.
-6. Recheck all providers' current availability, prices, free-plan limits and terms before publishing updates.
+Official contact email: officialprimebusiness01@gmail.com
 
-All articles are introductory research guides and clearly state that they are not scored product tests.
+Before applying to affiliate programmes:
+- Check each programme accepts publishers resident in Nigeria and supports a payout method you can actually receive.
+- Add a clear affiliate notice beside each affiliate link, not only on the disclosure page.
+- Only publish links and product claims you have verified.
+- If you add analytics, newsletter forms, embedded services, ads or tracking technologies, update the Privacy Policy and implement any legally required cookie consent.
+- Consider legal review for the countries you actively target. These policy pages are general templates, not legal advice.
+
+The current pages describe the website as an informational publication. Do not claim hands-on testing unless it genuinely took place.
