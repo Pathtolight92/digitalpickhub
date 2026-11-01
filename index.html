@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover and compare useful AI tools, software, online courses and digital services with DigitalPickHub.">
+  <meta name="theme-color" content="#101828">
+  <title>DigitalPickHub — Find the right digital tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="DigitalPickHub home"><span class="brand-mark">D</span> DigitalPickHub</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#categories">Categories</a>
+      <a href="#featured">Explore tools</a>
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#featured">Explore picks <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Make smarter digital choices</p>
+        <h1>Find the right tools.<br><span>Do more with digital.</span></h1>
+        <p class="hero-text">Discover useful AI tools, software, online learning and digital services — with clear, practical guides to help you choose.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#featured">Explore recommendations <span>→</span></a>
+          <a class="text-link" href="#categories">Browse categories</a>
+        </div>
+        <div class="trust-line"><span class="avatars">✦ ◈ ●</span> Independent research. Practical recommendations.</div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span class="live-dot"></span> THE DIGITAL TOOLKIT <span class="card-menu">•••</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hub-icon">✧</div>
+        <div class="floating-chip chip-ai">✳ AI tools</div>
+        <div class="floating-chip chip-learn">▤ Online learning</div>
+        <div class="floating-chip chip-software">◫ Software</div>
+        <div class="floating-chip chip-growth">↗ Digital growth</div>
+        <p class="hero-card-caption">The right resource can change how you work.</p>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>AI & automation</strong><span>Work smarter</span></div>
+      <div><strong>Software & apps</strong><span>Find your workflow</span></div>
+      <div><strong>Courses & learning</strong><span>Build new skills</span></div>
+      <div><strong>Digital services</strong><span>Grow online</span></div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-heading">
+        <div><p class="eyebrow">EXPLORE BY INTEREST</p><h2>What are you looking for?</h2></div>
+        <p>Start with a category and find resources that match your goals.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="#featured" data-filter="AI Tools"><span class="category-icon purple">✳</span><h3>AI Tools</h3><p>Writing, research, images, video and automation.</p><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#featured" data-filter="Software"><span class="category-icon blue">▣</span><h3>Software & Apps</h3><p>Creative, productivity and business software.</p><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#featured" data-filter="Online Courses"><span class="category-icon orange">▤</span><h3>Online Courses</h3><p>Learn practical skills and develop your career.</p><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#featured" data-filter="Digital Marketing"><span class="category-icon green">↗</span><h3>Digital Marketing</h3><p>SEO, email, content and audience growth.</p><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#featured" data-filter="Web Services"><span class="category-icon pink">⌘</span><h3>Web Services</h3><p>Website builders, hosting and online business tools.</p><span class="category-arrow">↗</span></a>
+        <a class="category-card" href="#featured" data-filter="Digital Products"><span class="category-icon yellow">◇</span><h3>Digital Products</h3><p>Templates, resources, guides and downloads.</p><span class="category-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section featured-section" id="featured">
+      <div class="section-heading">
+        <div><p class="eyebrow">HANDPICKED RESOURCES</p><h2>Explore digital picks</h2></div>
+        <p>Our directory will grow as products are researched and reviewed.</p>
+      </div>
+      <div class="filter-row">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search tools and resources..." aria-label="Search tools and resources"></label>
+        <select id="categoryFilter" aria-label="Filter by category">
+          <option value="All">All categories</option>
+          <option>AI Tools</option><option>Software</option><option>Online Courses</option>
+          <option>Digital Marketing</option><option>Web Services</option><option>Digital Products</option>
+        </select>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="AI Tools" data-name="AI writing and productivity tools">
+          <div class="product-visual visual-purple">✳</div><div class="product-meta"><span>AI TOOLS</span><span class="tag">Coming soon</span></div>
+          <h3>AI writing & productivity</h3><p>Tools that can help with brainstorming, drafting, research and everyday tasks.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+        <article class="product-card" data-category="Software" data-name="creative design and editing software">
+          <div class="product-visual visual-blue">◫</div><div class="product-meta"><span>SOFTWARE</span><span class="tag">Coming soon</span></div>
+          <h3>Creative software</h3><p>Explore design, photo editing, video editing and content creation platforms.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+        <article class="product-card" data-category="Online Courses" data-name="online courses skill learning">
+          <div class="product-visual visual-orange">▤</div><div class="product-meta"><span>ONLINE COURSES</span><span class="tag">Coming soon</span></div>
+          <h3>Learn new skills online</h3><p>Find courses for technology, business, creativity and professional growth.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+        <article class="product-card" data-category="Digital Marketing" data-name="SEO email marketing analytics">
+          <div class="product-visual visual-green">↗</div><div class="product-meta"><span>DIGITAL MARKETING</span><span class="tag">Coming soon</span></div>
+          <h3>Marketing & audience growth</h3><p>Discover resources for SEO, email campaigns, analytics and content strategy.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+        <article class="product-card" data-category="Web Services" data-name="website hosting domains website builders">
+          <div class="product-visual visual-pink">⌘</div><div class="product-meta"><span>WEB SERVICES</span><span class="tag">Coming soon</span></div>
+          <h3>Build your online presence</h3><p>Compare website builders, hosting providers and useful web services.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+        <article class="product-card" data-category="Digital Products" data-name="templates ebooks digital downloads">
+          <div class="product-visual visual-yellow">◇</div><div class="product-meta"><span>DIGITAL PRODUCTS</span><span class="tag">Coming soon</span></div>
+          <h3>Templates & digital resources</h3><p>Useful downloadable resources for planning, learning and creating.</p>
+          <a class="card-link" href="#guides">Explore guides <span>→</span></a>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No matching resources yet. Try another search or category.</p>
+    </section>
+
+    <section class="guide-banner" id="guides">
+      <div><p class="eyebrow">THE LEARNING HUB</p><h2>Choose with confidence.</h2><p>We’re building practical comparisons, beginner-friendly explainers and honest reviews to make digital decisions easier.</p></div>
+      <a class="button button-light" href="mailto:hello@digitalpickhub.com?subject=DigitalPickHub%20guide%20suggestion">Suggest a guide <span>→</span></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div><p class="eyebrow">ABOUT DIGITALPICKHUB</p><h2>Less guesswork.<br>Better digital choices.</h2></div>
+      <div><p>DigitalPickHub is being built to help people around the world discover digital tools, services and learning resources. Our aim is to explain what a product does, who it may suit, and what to consider before signing up.</p><p class="disclosure-note"><strong>Affiliate disclosure:</strong> Some links on this website may be affiliate links. If you purchase or subscribe through them, we may earn a commission at no additional cost to you. We will identify affiliate links and aim to provide useful, honest information.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">D</span> DigitalPickHub</a>
+    <p>Discover digital. Choose smarter.</p>
+    <div class="footer-links"><a href="#about">About</a><a href="disclosure.html">Affiliate disclosure</a><a href="privacy.html">Privacy</a><a href="mailto:hello@digitalpickhub.com">Contact</a></div>
+    <small>© <span id="year"></span> DigitalPickHub. All rights reserved.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
